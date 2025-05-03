@@ -1,7 +1,16 @@
 {
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\x64-Debug",
+      "out\\install\\x64-Debug"
+    ]
+  },
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Project",
+    "\\Project\\CMakeFiles",
+    "\\Project\\CMakeFiles\\4.0.1",
+    "\\Project\\CMakeFiles\\4.0.1\\CompilerIdC"
   ],
-  "SelectedNode": "\\C:\\GameMath",
   "PreviewInSolutionExplorer": false
 }
