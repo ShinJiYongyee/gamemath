@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\GameMath\gamemath-3-2c\Source\Player\Precompiled.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\SystemInputManager.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-3-2c\Source\Player\SoftRenderer.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-3-2c\Source\Player\SoftRenderer2D.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-3-2c\Source\Player\SoftRenderer3D.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\Windows\WindowsApp.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\GameMath\gamemath-3-2c\Source\Player\Precompiled.h" />
+    <ClInclude Include="C:\GameMath\gamemath-3-2c\Source\Player\SoftRenderer.h" />
+    <ClInclude Include="C:\GameMath\gamemath-3-2c\Source\Player\SystemInputManager.h" />
+    <ClInclude Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\Windows\Res\resource.h">
+      <Filter>Private\Windows\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\Windows\WindowsPlayer.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\Windows\WindowsUtil.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\Windows\Res\player.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+    <None Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\Windows\Res\player_small.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\GameMath\gamemath-3-2c\Source\Player\Private\Windows\Res\player.rc">
+      <Filter>Private\Windows\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{25544F50-3F7C-3264-B1E4-04BB744E2455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{39DF9263-51A1-3D79-AEA4-5DC3B234DC20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows\Res">
+      <UniqueIdentifier>{4D87D3A6-081F-332D-8215-2584D68674DD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

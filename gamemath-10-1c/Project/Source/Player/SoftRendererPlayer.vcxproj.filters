@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\GameMath\gamemath-10-1c\Source\Player\Precompiled.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\SystemInputManager.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GameMath\gamemath-10-1c\Source\Player\SoftRenderer.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-10-1c\Source\Player\SoftRenderer2D.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-10-1c\Source\Player\SoftRenderer3D.cpp" />
+    <ClCompile Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\Windows\WindowsApp.cpp">
+      <Filter>Private\Windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\GameMath\gamemath-10-1c\Source\Player\Precompiled.h" />
+    <ClInclude Include="C:\GameMath\gamemath-10-1c\Source\Player\SoftRenderer.h" />
+    <ClInclude Include="C:\GameMath\gamemath-10-1c\Source\Player\SystemInputManager.h" />
+    <ClInclude Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\Windows\Res\resource.h">
+      <Filter>Private\Windows\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\Windows\WindowsPlayer.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\Windows\WindowsUtil.h">
+      <Filter>Private\Windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\Windows\Res\player.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+    <None Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\Windows\Res\player_small.ico">
+      <Filter>Private\Windows\Res</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\GameMath\gamemath-10-1c\Source\Player\Private\Windows\Res\player.rc">
+      <Filter>Private\Windows\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{9833FAB2-9C5A-3F4B-9D39-25A058FF8E86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows">
+      <UniqueIdentifier>{E61E9913-46F4-363C-987C-E5822294A946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Private\Windows\Res">
+      <UniqueIdentifier>{F16739FA-6D4D-3B56-85E2-E2C8626BF220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

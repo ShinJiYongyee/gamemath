@@ -1,3 +1,39 @@
-/Source/Player/Res/*.aps
-/Project
-/Output
+# --- CMake ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# --- Visual Studio ---
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Build results
+[Bb]uild/
+x64/
+x86/
+Debug/
+Release/
+ipch/
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.sdf
+*.opensdf
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Others
+*.log
+*.cache

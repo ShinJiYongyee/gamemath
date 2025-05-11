@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{C1B51FEC-2998-3BD6-AE97-23D8319DDA46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{BF21891C-2199-3B19-8470-51B4F44A757B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36} = {D85644CC-0569-3875-AEC9-0C32DAC68A36}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathModule", "MathModule.vcxproj", "{D85644CC-0569-3875-AEC9-0C32DAC68A36}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF21891C-2199-3B19-8470-51B4F44A757B}.Debug|x64.ActiveCfg = Debug|x64
+		{BF21891C-2199-3B19-8470-51B4F44A757B}.Release|x64.ActiveCfg = Release|x64
+		{BF21891C-2199-3B19-8470-51B4F44A757B}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{BF21891C-2199-3B19-8470-51B4F44A757B}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.Debug|x64.ActiveCfg = Debug|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.Debug|x64.Build.0 = Debug|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.Release|x64.ActiveCfg = Release|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.Release|x64.Build.0 = Release|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{D85644CC-0569-3875-AEC9-0C32DAC68A36}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF21891C-2199-3B19-8470-51B4F44A757B} = {C1B51FEC-2998-3BD6-AE97-23D8319DDA46}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF645DE2-02C3-3F7D-B1E0-D27849267B88}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
